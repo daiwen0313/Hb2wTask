@@ -36,9 +36,15 @@
 - 问题5：通过Github的操作来说明工作区、暂存区、版本库之间的关系
 > 答案：通过 Github的操作说明工作区、暂存区、版本库之间的关系
 >        1.新建好项目后，打开项目所在的文件夹，就是我们工作区。但工作区的.git文件夹是git的版本库，不算工作区。
+![]（https://github.com/ljjtodo/Hb2wTask/blob/master/git%20picture/11.png）
+![]（https://github.com/ljjtodo/Hb2wTask/blob/master/git%20picture/12.png）
 >        2.现在，我们在工作区创建一个新文件：study，并在新文件中添加内容:This is a big book.完成后，点击保存。
->        3.接下来打开Github的客户端，点击Changes，我们就能看到刚刚在工作区添加的内容，也已经被自动保存到这里来了。
+![]（https://github.com/ljjtodo/Hb2wTask/blob/master/git%20picture/2.png）
+>        3.接下来打开Github的客户端，点击Changes，我们就能看到刚刚在工作区添加的内容，也已经被自动保存到这里来了，并自己勾选增加到暂存区(git add),如不加入可以不勾选.下面commit即为git commit的操作。
+![]（https://github.com/ljjtodo/Hb2wTask/blob/master/git%20picture/4.png）
 >        4.蓝色表示被选中，在下方填写修改内容的概述，点击Commit按钮，就完成了到版本库的提交。
+![]（https://github.com/ljjtodo/Hb2wTask/blob/master/git%20picture/5.png）
+>        5.在github客户端将两个操作合并成一个界面.
  
 
 
